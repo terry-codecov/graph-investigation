@@ -1,7 +1,6 @@
 import { scaleLinear } from "d3-scale";
 import { countBy } from "lodash";
 
-import "charts.css";
 import "./chartcss.css";
 
 export default function ChartCSSLine({ shakespear }) {

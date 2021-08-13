@@ -22,9 +22,9 @@ export default function App() {
     <Router>
       <div className="App">
         <nav>
-        <p>
-        Trying various charting methods with react. (Almost) All use D3.
-      </p>
+          <p>
+            Trying various charting methods with react. (Almost) All use D3.
+          </p>
           <ul>
             <li>
               <Link to="/">Overview</Link>

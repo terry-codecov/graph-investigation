@@ -1,8 +1,6 @@
 import { useEffect, useRef } from "react";
 import { scaleLinear } from "d3-scale";
 
-import "charts.css";
-
 function Line({ start, size }) {
   const ref = useRef();
   useEffect(() => {
