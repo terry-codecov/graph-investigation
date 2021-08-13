@@ -1,0 +1,2402 @@
+[
+  {
+    "Dataline": 1,
+    "Play": "Henry IV",
+    "PlayerLinenumber": "",
+    "ActSceneLine": "",
+    "Player": "",
+    "PlayerLine": "ACT I"
+  },
+  {
+    "Dataline": 2,
+    "Play": "Henry IV",
+    "PlayerLinenumber": "",
+    "ActSceneLine": "",
+    "Player": "",
+    "PlayerLine": "SCENE I. London. The palace."
+  },
+  {
+    "Dataline": 3,
+    "Play": "Henry IV",
+    "PlayerLinenumber": "",
+    "ActSceneLine": "",
+    "Player": "",
+    "PlayerLine": "Enter KING HENRY, LORD JOHN OF LANCASTER, the EARL of WESTMORELAND, SIR WALTER BLUNT, and others"
+  },
+  {
+    "Dataline": 4,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.1",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "So shaken as we are, so wan with care,"
+  },
+  {
+    "Dataline": 5,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.2",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Find we a time for frighted peace to pant,"
+  },
+  {
+    "Dataline": 6,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.3",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "And breathe short-winded accents of new broils"
+  },
+  {
+    "Dataline": 7,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.4",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "To be commenced in strands afar remote."
+  },
+  {
+    "Dataline": 8,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.5",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "No more the thirsty entrance of this soil"
+  },
+  {
+    "Dataline": 9,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.6",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Shall daub her lips with her own children's blood,"
+  },
+  {
+    "Dataline": 10,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.7",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Nor more shall trenching war channel her fields,"
+  },
+  {
+    "Dataline": 11,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.8",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Nor bruise her flowerets with the armed hoofs"
+  },
+  {
+    "Dataline": 12,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.9",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Of hostile paces: those opposed eyes,"
+  },
+  {
+    "Dataline": 13,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.10",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Which, like the meteors of a troubled heaven,"
+  },
+  {
+    "Dataline": 14,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.11",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "All of one nature, of one substance bred,"
+  },
+  {
+    "Dataline": 15,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.12",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Did lately meet in the intestine shock"
+  },
+  {
+    "Dataline": 16,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.13",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "And furious close of civil butchery"
+  },
+  {
+    "Dataline": 17,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.14",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Shall now, in mutual well-beseeming ranks,"
+  },
+  {
+    "Dataline": 18,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.15",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "March all one way and be no more opposed"
+  },
+  {
+    "Dataline": 19,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.16",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Against acquaintance, kindred and allies:"
+  },
+  {
+    "Dataline": 20,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.17",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "The edge of war, like an ill-sheathed knife,"
+  },
+  {
+    "Dataline": 21,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.18",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "No more shall cut his master. Therefore, friends,"
+  },
+  {
+    "Dataline": 22,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.19",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "As far as to the sepulchre of Christ,"
+  },
+  {
+    "Dataline": 23,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.20",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Whose soldier now, under whose blessed cross"
+  },
+  {
+    "Dataline": 24,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.21",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "We are impressed and engaged to fight,"
+  },
+  {
+    "Dataline": 25,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.22",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Forthwith a power of English shall we levy,"
+  },
+  {
+    "Dataline": 26,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.23",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Whose arms were moulded in their mothers' womb"
+  },
+  {
+    "Dataline": 27,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.24",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "To chase these pagans in those holy fields"
+  },
+  {
+    "Dataline": 28,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.25",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Over whose acres walk'd those blessed feet"
+  },
+  {
+    "Dataline": 29,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.26",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Which fourteen hundred years ago were nail'd"
+  },
+  {
+    "Dataline": 30,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.27",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "For our advantage on the bitter cross."
+  },
+  {
+    "Dataline": 31,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.28",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "But this our purpose now is twelve month old,"
+  },
+  {
+    "Dataline": 32,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.29",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "And bootless 'tis to tell you we will go:"
+  },
+  {
+    "Dataline": 33,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.30",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Therefore we meet not now. Then let me hear"
+  },
+  {
+    "Dataline": 34,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.31",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Of you, my gentle cousin Westmoreland,"
+  },
+  {
+    "Dataline": 35,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.32",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "What yesternight our council did decree"
+  },
+  {
+    "Dataline": 36,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.1.33",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "In forwarding this dear expedience."
+  },
+  {
+    "Dataline": 37,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.1.34",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "My liege, this haste was hot in question,"
+  },
+  {
+    "Dataline": 38,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.1.35",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "And many limits of the charge set down"
+  },
+  {
+    "Dataline": 39,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.1.36",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "But yesternight: when all athwart there came"
+  },
+  {
+    "Dataline": 40,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.1.37",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "A post from Wales loaden with heavy news,"
+  },
+  {
+    "Dataline": 41,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.1.38",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Whose worst was, that the noble Mortimer,"
+  },
+  {
+    "Dataline": 42,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.1.39",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Leading the men of Herefordshire to fight"
+  },
+  {
+    "Dataline": 43,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.1.40",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Against the irregular and wild Glendower,"
+  },
+  {
+    "Dataline": 44,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.1.41",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Was by the rude hands of that Welshman taken,"
+  },
+  {
+    "Dataline": 45,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.1.42",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "A thousand of his people butchered,"
+  },
+  {
+    "Dataline": 46,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.1.43",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Upon whose dead corpse there was such misuse,"
+  },
+  {
+    "Dataline": 47,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.1.44",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Such beastly shameless transformation,"
+  },
+  {
+    "Dataline": 48,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.1.45",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "By those Welshwomen done as may not be"
+  },
+  {
+    "Dataline": 49,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.1.46",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Without much shame retold or spoken of."
+  },
+  {
+    "Dataline": 50,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 3,
+    "ActSceneLine": "1.1.47",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "It seems then that the tidings of this broil"
+  },
+  {
+    "Dataline": 51,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 3,
+    "ActSceneLine": "1.1.48",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Brake off our business for the Holy Land."
+  },
+  {
+    "Dataline": 52,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 4,
+    "ActSceneLine": "1.1.49",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "This match'd with other did, my gracious lord,"
+  },
+  {
+    "Dataline": 53,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 4,
+    "ActSceneLine": "1.1.50",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "For more uneven and unwelcome news"
+  },
+  {
+    "Dataline": 54,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 4,
+    "ActSceneLine": "1.1.51",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Came from the north and thus it did import:"
+  },
+  {
+    "Dataline": 55,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 4,
+    "ActSceneLine": "1.1.52",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "On Holy-rood day, the gallant Hotspur there,"
+  },
+  {
+    "Dataline": 56,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 4,
+    "ActSceneLine": "1.1.53",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Young Harry Percy and brave Archibald,"
+  },
+  {
+    "Dataline": 57,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 4,
+    "ActSceneLine": "1.1.54",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "That ever-valiant and approved Scot,"
+  },
+  {
+    "Dataline": 58,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 4,
+    "ActSceneLine": "1.1.55",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "At Holmedon met,"
+  },
+  {
+    "Dataline": 59,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 4,
+    "ActSceneLine": "1.1.56",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Where they did spend a sad and bloody hour,"
+  },
+  {
+    "Dataline": 60,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 4,
+    "ActSceneLine": "1.1.57",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "As by discharge of their artillery,"
+  },
+  {
+    "Dataline": 61,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 4,
+    "ActSceneLine": "1.1.58",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "And shape of likelihood, the news was told,"
+  },
+  {
+    "Dataline": 62,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 4,
+    "ActSceneLine": "1.1.59",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "For he that brought them, in the very heat"
+  },
+  {
+    "Dataline": 63,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 4,
+    "ActSceneLine": "1.1.60",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "And pride of their contention did take horse,"
+  },
+  {
+    "Dataline": 64,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 4,
+    "ActSceneLine": "1.1.61",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Uncertain of the issue any way."
+  },
+  {
+    "Dataline": 65,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.1.62",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Here is a dear, a true industrious friend,"
+  },
+  {
+    "Dataline": 66,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.1.63",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Sir Walter Blunt, new lighted from his horse."
+  },
+  {
+    "Dataline": 67,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.1.64",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Stain'd with the variation of each soil"
+  },
+  {
+    "Dataline": 68,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.1.65",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Betwixt that Holmedon and this seat of ours,"
+  },
+  {
+    "Dataline": 69,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.1.66",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "And he hath brought us smooth and welcome news."
+  },
+  {
+    "Dataline": 70,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.1.67",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "The Earl of Douglas is discomfited:"
+  },
+  {
+    "Dataline": 71,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.1.68",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Ten thousand bold Scots, two and twenty knights,"
+  },
+  {
+    "Dataline": 72,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.1.69",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Balk'd in their own blood did Sir Walter see"
+  },
+  {
+    "Dataline": 73,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.1.70",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "On Holmedon's plains. Of prisoners, Hotspur took"
+  },
+  {
+    "Dataline": 74,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.1.71",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Mordake the Earl of Fife, and eldest son"
+  },
+  {
+    "Dataline": 75,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.1.72",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "To beaten Douglas, and the Earl of Athol,"
+  },
+  {
+    "Dataline": 76,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.1.73",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Of Murray, Angus, and Menteith:"
+  },
+  {
+    "Dataline": 77,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.1.74",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "And is not this an honourable spoil?"
+  },
+  {
+    "Dataline": 78,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.1.75",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "A gallant prize? ha, cousin, is it not?"
+  },
+  {
+    "Dataline": 79,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 6,
+    "ActSceneLine": "1.1.76",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "In faith,"
+  },
+  {
+    "Dataline": 80,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 6,
+    "ActSceneLine": "1.1.77",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "It is a conquest for a prince to boast of."
+  },
+  {
+    "Dataline": 81,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.78",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Yea, there thou makest me sad and makest me sin"
+  },
+  {
+    "Dataline": 82,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.79",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "In envy that my Lord Northumberland"
+  },
+  {
+    "Dataline": 83,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.80",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Should be the father to so blest a son,"
+  },
+  {
+    "Dataline": 84,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.81",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "A son who is the theme of honour's tongue,"
+  },
+  {
+    "Dataline": 85,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.82",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Amongst a grove, the very straightest plant,"
+  },
+  {
+    "Dataline": 86,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.83",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Who is sweet Fortune's minion and her pride:"
+  },
+  {
+    "Dataline": 87,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.84",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Whilst I, by looking on the praise of him,"
+  },
+  {
+    "Dataline": 88,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.85",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "See riot and dishonour stain the brow"
+  },
+  {
+    "Dataline": 89,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.86",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Of my young Harry. O that it could be proved"
+  },
+  {
+    "Dataline": 90,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.87",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "That some night-tripping fairy had exchanged"
+  },
+  {
+    "Dataline": 91,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.88",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "In cradle-clothes our children where they lay,"
+  },
+  {
+    "Dataline": 92,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.89",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "And call'd mine Percy, his Plantagenet!"
+  },
+  {
+    "Dataline": 93,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.90",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Then would I have his Harry, and he mine."
+  },
+  {
+    "Dataline": 94,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.91",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "But let him from my thoughts. What think you, coz,"
+  },
+  {
+    "Dataline": 95,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.92",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Of this young Percy's pride? the prisoners,"
+  },
+  {
+    "Dataline": 96,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.93",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Which he in this adventure hath surprised,"
+  },
+  {
+    "Dataline": 97,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.94",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "To his own use he keeps, and sends me word,"
+  },
+  {
+    "Dataline": 98,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.1.95",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "I shall have none but Mordake Earl of Fife."
+  },
+  {
+    "Dataline": 99,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 8,
+    "ActSceneLine": "1.1.96",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "This is his uncle's teaching, this is Worcester,"
+  },
+  {
+    "Dataline": 100,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 8,
+    "ActSceneLine": "1.1.97",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Malevolent to you in all aspects,"
+  },
+  {
+    "Dataline": 101,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 8,
+    "ActSceneLine": "1.1.98",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Which makes him prune himself, and bristle up"
+  },
+  {
+    "Dataline": 102,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 8,
+    "ActSceneLine": "1.1.99",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "The crest of youth against your dignity."
+  },
+  {
+    "Dataline": 103,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 9,
+    "ActSceneLine": "1.1.100",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "But I have sent for him to answer this,"
+  },
+  {
+    "Dataline": 104,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 9,
+    "ActSceneLine": "1.1.101",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "And for this cause awhile we must neglect"
+  },
+  {
+    "Dataline": 105,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 9,
+    "ActSceneLine": "1.1.102",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Our holy purpose to Jerusalem."
+  },
+  {
+    "Dataline": 106,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 9,
+    "ActSceneLine": "1.1.103",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Cousin, on Wednesday next our council we"
+  },
+  {
+    "Dataline": 107,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 9,
+    "ActSceneLine": "1.1.104",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Will hold at Windsor, so inform the lords:"
+  },
+  {
+    "Dataline": 108,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 9,
+    "ActSceneLine": "1.1.105",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "But come yourself with speed to us again,"
+  },
+  {
+    "Dataline": 109,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 9,
+    "ActSceneLine": "1.1.106",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "For more is to be said and to be done"
+  },
+  {
+    "Dataline": 110,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 9,
+    "ActSceneLine": "1.1.107",
+    "Player": "KING HENRY IV",
+    "PlayerLine": "Than out of anger can be uttered."
+  },
+  {
+    "Dataline": 111,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 10,
+    "ActSceneLine": "1.1.108",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "I will, my liege."
+  },
+  {
+    "Dataline": 112,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 10,
+    "ActSceneLine": "",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Exeunt"
+  },
+  {
+    "Dataline": 113,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 10,
+    "ActSceneLine": "",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "SCENE II. London. An apartment of the Prince's."
+  },
+  {
+    "Dataline": 114,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 10,
+    "ActSceneLine": "",
+    "Player": "WESTMORELAND",
+    "PlayerLine": "Enter the PRINCE OF WALES and FALSTAFF"
+  },
+  {
+    "Dataline": 115,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 1,
+    "ActSceneLine": "1.2.1",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Now, Hal, what time of day is it, lad?"
+  },
+  {
+    "Dataline": 116,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.2.2",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Thou art so fat-witted, with drinking of old sack"
+  },
+  {
+    "Dataline": 117,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.2.3",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "and unbuttoning thee after supper and sleeping upon"
+  },
+  {
+    "Dataline": 118,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.2.4",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "benches after noon, that thou hast forgotten to"
+  },
+  {
+    "Dataline": 119,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.2.5",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "demand that truly which thou wouldst truly know."
+  },
+  {
+    "Dataline": 120,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.2.6",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "What a devil hast thou to do with the time of the"
+  },
+  {
+    "Dataline": 121,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.2.7",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "day? Unless hours were cups of sack and minutes"
+  },
+  {
+    "Dataline": 122,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.2.8",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "capons and clocks the tongues of bawds and dials the"
+  },
+  {
+    "Dataline": 123,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.2.9",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "signs of leaping-houses and the blessed sun himself"
+  },
+  {
+    "Dataline": 124,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.2.10",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "a fair hot wench in flame-coloured taffeta, I see no"
+  },
+  {
+    "Dataline": 125,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.2.11",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "reason why thou shouldst be so superfluous to demand"
+  },
+  {
+    "Dataline": 126,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 2,
+    "ActSceneLine": "1.2.12",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "the time of the day."
+  },
+  {
+    "Dataline": 127,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 3,
+    "ActSceneLine": "1.2.13",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Indeed, you come near me now, Hal, for we that take"
+  },
+  {
+    "Dataline": 128,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 3,
+    "ActSceneLine": "1.2.14",
+    "Player": "FALSTAFF",
+    "PlayerLine": "purses go by the moon and the seven stars, and not"
+  },
+  {
+    "Dataline": 129,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 3,
+    "ActSceneLine": "1.2.15",
+    "Player": "FALSTAFF",
+    "PlayerLine": "by Phoebus, he,'that wandering knight so fair.' And,"
+  },
+  {
+    "Dataline": 130,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 3,
+    "ActSceneLine": "1.2.16",
+    "Player": "FALSTAFF",
+    "PlayerLine": "I prithee, sweet wag, when thou art king, as, God"
+  },
+  {
+    "Dataline": 131,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 3,
+    "ActSceneLine": "1.2.17",
+    "Player": "FALSTAFF",
+    "PlayerLine": "save thy grace,--majesty I should say, for grace"
+  },
+  {
+    "Dataline": 132,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 3,
+    "ActSceneLine": "1.2.18",
+    "Player": "FALSTAFF",
+    "PlayerLine": "thou wilt have none,--"
+  },
+  {
+    "Dataline": 133,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 4,
+    "ActSceneLine": "1.2.19",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "What, none?"
+  },
+  {
+    "Dataline": 134,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.2.20",
+    "Player": "FALSTAFF",
+    "PlayerLine": "No, by my troth, not so much as will serve to"
+  },
+  {
+    "Dataline": 135,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 5,
+    "ActSceneLine": "1.2.21",
+    "Player": "FALSTAFF",
+    "PlayerLine": "prologue to an egg and butter."
+  },
+  {
+    "Dataline": 136,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 6,
+    "ActSceneLine": "1.2.22",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Well, how then? come, roundly, roundly."
+  },
+  {
+    "Dataline": 137,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.2.23",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Marry, then, sweet wag, when thou art king, let not"
+  },
+  {
+    "Dataline": 138,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.2.24",
+    "Player": "FALSTAFF",
+    "PlayerLine": "us that are squires of the night's body be called"
+  },
+  {
+    "Dataline": 139,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.2.25",
+    "Player": "FALSTAFF",
+    "PlayerLine": "thieves of the day's beauty: let us be Diana's"
+  },
+  {
+    "Dataline": 140,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.2.26",
+    "Player": "FALSTAFF",
+    "PlayerLine": "foresters, gentlemen of the shade, minions of the"
+  },
+  {
+    "Dataline": 141,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.2.27",
+    "Player": "FALSTAFF",
+    "PlayerLine": "moon, and let men say we be men of good government,"
+  },
+  {
+    "Dataline": 142,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.2.28",
+    "Player": "FALSTAFF",
+    "PlayerLine": "being governed, as the sea is, by our noble and"
+  },
+  {
+    "Dataline": 143,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 7,
+    "ActSceneLine": "1.2.29",
+    "Player": "FALSTAFF",
+    "PlayerLine": "chaste mistress the moon, under whose countenance we steal."
+  },
+  {
+    "Dataline": 144,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 8,
+    "ActSceneLine": "1.2.30",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Thou sayest well, and it holds well too, for the"
+  },
+  {
+    "Dataline": 145,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 8,
+    "ActSceneLine": "1.2.31",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "fortune of us that are the moon's men doth ebb and"
+  },
+  {
+    "Dataline": 146,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 8,
+    "ActSceneLine": "1.2.32",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "flow like the sea, being governed, as the sea is,"
+  },
+  {
+    "Dataline": 147,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 8,
+    "ActSceneLine": "1.2.33",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "by the moon. As, for proof, now: a purse of gold"
+  },
+  {
+    "Dataline": 148,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 8,
+    "ActSceneLine": "1.2.34",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "most resolutely snatched on Monday night and most"
+  },
+  {
+    "Dataline": 149,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 8,
+    "ActSceneLine": "1.2.35",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "dissolutely spent on Tuesday morning, got with"
+  },
+  {
+    "Dataline": 150,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 8,
+    "ActSceneLine": "1.2.36",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "swearing 'Lay by' and spent with crying 'Bring in,'"
+  },
+  {
+    "Dataline": 151,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 8,
+    "ActSceneLine": "1.2.37",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "now in as low an ebb as the foot of the ladder"
+  },
+  {
+    "Dataline": 152,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 8,
+    "ActSceneLine": "1.2.38",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "and by and by in as high a flow as the ridge of the gallows."
+  },
+  {
+    "Dataline": 153,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 9,
+    "ActSceneLine": "1.2.39",
+    "Player": "FALSTAFF",
+    "PlayerLine": "By the Lord, thou sayest true, lad. And is not my"
+  },
+  {
+    "Dataline": 154,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 9,
+    "ActSceneLine": "1.2.40",
+    "Player": "FALSTAFF",
+    "PlayerLine": "hostess of the tavern a most sweet wench?"
+  },
+  {
+    "Dataline": 155,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 10,
+    "ActSceneLine": "1.2.41",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "As the honey of Hybla, my old lad of the castle. And"
+  },
+  {
+    "Dataline": 156,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 10,
+    "ActSceneLine": "1.2.42",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "is not a buff jerkin a most sweet robe of durance?"
+  },
+  {
+    "Dataline": 157,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 11,
+    "ActSceneLine": "1.2.43",
+    "Player": "FALSTAFF",
+    "PlayerLine": "How now, how now, mad wag! what, in thy quips and"
+  },
+  {
+    "Dataline": 158,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 11,
+    "ActSceneLine": "1.2.44",
+    "Player": "FALSTAFF",
+    "PlayerLine": "thy quiddities? what a plague have I to do with a"
+  },
+  {
+    "Dataline": 159,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 11,
+    "ActSceneLine": "1.2.45",
+    "Player": "FALSTAFF",
+    "PlayerLine": "buff jerkin?"
+  },
+  {
+    "Dataline": 160,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 12,
+    "ActSceneLine": "1.2.46",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Why, what a pox have I to do with my hostess of the tavern?"
+  },
+  {
+    "Dataline": 161,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 13,
+    "ActSceneLine": "1.2.47",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Well, thou hast called her to a reckoning many a"
+  },
+  {
+    "Dataline": 162,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 13,
+    "ActSceneLine": "1.2.48",
+    "Player": "FALSTAFF",
+    "PlayerLine": "time and oft."
+  },
+  {
+    "Dataline": 163,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 14,
+    "ActSceneLine": "1.2.49",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Did I ever call for thee to pay thy part?"
+  },
+  {
+    "Dataline": 164,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 15,
+    "ActSceneLine": "1.2.50",
+    "Player": "FALSTAFF",
+    "PlayerLine": "No, I'll give thee thy due, thou hast paid all there."
+  },
+  {
+    "Dataline": 165,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 16,
+    "ActSceneLine": "1.2.51",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Yea, and elsewhere, so far as my coin would stretch,"
+  },
+  {
+    "Dataline": 166,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 16,
+    "ActSceneLine": "1.2.52",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "and where it would not, I have used my credit."
+  },
+  {
+    "Dataline": 167,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 17,
+    "ActSceneLine": "1.2.53",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Yea, and so used it that were it not here apparent"
+  },
+  {
+    "Dataline": 168,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 17,
+    "ActSceneLine": "1.2.54",
+    "Player": "FALSTAFF",
+    "PlayerLine": "that thou art heir apparent--But, I prithee, sweet"
+  },
+  {
+    "Dataline": 169,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 17,
+    "ActSceneLine": "1.2.55",
+    "Player": "FALSTAFF",
+    "PlayerLine": "wag, shall there be gallows standing in England when"
+  },
+  {
+    "Dataline": 170,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 17,
+    "ActSceneLine": "1.2.56",
+    "Player": "FALSTAFF",
+    "PlayerLine": "thou art king? and resolution thus fobbed as it is"
+  },
+  {
+    "Dataline": 171,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 17,
+    "ActSceneLine": "1.2.57",
+    "Player": "FALSTAFF",
+    "PlayerLine": "with the rusty curb of old father antic the law? Do"
+  },
+  {
+    "Dataline": 172,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 17,
+    "ActSceneLine": "1.2.58",
+    "Player": "FALSTAFF",
+    "PlayerLine": "not thou, when thou art king, hang a thief."
+  },
+  {
+    "Dataline": 173,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 18,
+    "ActSceneLine": "1.2.59",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "No, thou shalt."
+  },
+  {
+    "Dataline": 174,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 19,
+    "ActSceneLine": "1.2.60",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Shall I? O rare! By the Lord, I'll be a brave judge."
+  },
+  {
+    "Dataline": 175,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 20,
+    "ActSceneLine": "1.2.61",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Thou judgest false already: I mean, thou shalt have"
+  },
+  {
+    "Dataline": 176,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 20,
+    "ActSceneLine": "1.2.62",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "the hanging of the thieves and so become a rare hangman."
+  },
+  {
+    "Dataline": 177,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 21,
+    "ActSceneLine": "1.2.63",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Well, Hal, well, and in some sort it jumps with my"
+  },
+  {
+    "Dataline": 178,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 21,
+    "ActSceneLine": "1.2.64",
+    "Player": "FALSTAFF",
+    "PlayerLine": "humour as well as waiting in the court, I can tell"
+  },
+  {
+    "Dataline": 179,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 21,
+    "ActSceneLine": "1.2.65",
+    "Player": "FALSTAFF",
+    "PlayerLine": "you."
+  },
+  {
+    "Dataline": 180,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 22,
+    "ActSceneLine": "1.2.66",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "For obtaining of suits?"
+  },
+  {
+    "Dataline": 181,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 23,
+    "ActSceneLine": "1.2.67",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Yea, for obtaining of suits, whereof the hangman"
+  },
+  {
+    "Dataline": 182,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 23,
+    "ActSceneLine": "1.2.68",
+    "Player": "FALSTAFF",
+    "PlayerLine": "hath no lean wardrobe. 'Sblood, I am as melancholy"
+  },
+  {
+    "Dataline": 183,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 23,
+    "ActSceneLine": "1.2.69",
+    "Player": "FALSTAFF",
+    "PlayerLine": "as a gib cat or a lugged bear."
+  },
+  {
+    "Dataline": 184,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 24,
+    "ActSceneLine": "1.2.70",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Or an old lion, or a lover's lute."
+  },
+  {
+    "Dataline": 185,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 25,
+    "ActSceneLine": "1.2.71",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Yea, or the drone of a Lincolnshire bagpipe."
+  },
+  {
+    "Dataline": 186,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 26,
+    "ActSceneLine": "1.2.72",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "What sayest thou to a hare, or the melancholy of"
+  },
+  {
+    "Dataline": 187,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 26,
+    "ActSceneLine": "1.2.73",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Moor-ditch?"
+  },
+  {
+    "Dataline": 188,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 27,
+    "ActSceneLine": "1.2.74",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Thou hast the most unsavoury similes and art indeed"
+  },
+  {
+    "Dataline": 189,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 27,
+    "ActSceneLine": "1.2.75",
+    "Player": "FALSTAFF",
+    "PlayerLine": "the most comparative, rascalliest, sweet young"
+  },
+  {
+    "Dataline": 190,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 27,
+    "ActSceneLine": "1.2.76",
+    "Player": "FALSTAFF",
+    "PlayerLine": "prince. But, Hal, I prithee, trouble me no more"
+  },
+  {
+    "Dataline": 191,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 27,
+    "ActSceneLine": "1.2.77",
+    "Player": "FALSTAFF",
+    "PlayerLine": "with vanity. I would to God thou and I knew where a"
+  },
+  {
+    "Dataline": 192,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 27,
+    "ActSceneLine": "1.2.78",
+    "Player": "FALSTAFF",
+    "PlayerLine": "commodity of good names were to be bought. An old"
+  },
+  {
+    "Dataline": 193,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 27,
+    "ActSceneLine": "1.2.79",
+    "Player": "FALSTAFF",
+    "PlayerLine": "lord of the council rated me the other day in the"
+  },
+  {
+    "Dataline": 194,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 27,
+    "ActSceneLine": "1.2.80",
+    "Player": "FALSTAFF",
+    "PlayerLine": "street about you, sir, but I marked him not, and yet"
+  },
+  {
+    "Dataline": 195,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 27,
+    "ActSceneLine": "1.2.81",
+    "Player": "FALSTAFF",
+    "PlayerLine": "he talked very wisely, but I regarded him not, and"
+  },
+  {
+    "Dataline": 196,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 27,
+    "ActSceneLine": "1.2.82",
+    "Player": "FALSTAFF",
+    "PlayerLine": "yet he talked wisely, and in the street too."
+  },
+  {
+    "Dataline": 197,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 28,
+    "ActSceneLine": "1.2.83",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Thou didst well, for wisdom cries out in the"
+  },
+  {
+    "Dataline": 198,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 28,
+    "ActSceneLine": "1.2.84",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "streets, and no man regards it."
+  },
+  {
+    "Dataline": 199,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 29,
+    "ActSceneLine": "1.2.85",
+    "Player": "FALSTAFF",
+    "PlayerLine": "O, thou hast damnable iteration and art indeed able"
+  },
+  {
+    "Dataline": 200,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 29,
+    "ActSceneLine": "1.2.86",
+    "Player": "FALSTAFF",
+    "PlayerLine": "to corrupt a saint. Thou hast done much harm upon"
+  },
+  {
+    "Dataline": 201,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 29,
+    "ActSceneLine": "1.2.87",
+    "Player": "FALSTAFF",
+    "PlayerLine": "me, Hal, God forgive thee for it! Before I knew"
+  },
+  {
+    "Dataline": 202,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 29,
+    "ActSceneLine": "1.2.88",
+    "Player": "FALSTAFF",
+    "PlayerLine": "thee, Hal, I knew nothing, and now am I, if a man"
+  },
+  {
+    "Dataline": 203,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 29,
+    "ActSceneLine": "1.2.89",
+    "Player": "FALSTAFF",
+    "PlayerLine": "should speak truly, little better than one of the"
+  },
+  {
+    "Dataline": 204,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 29,
+    "ActSceneLine": "1.2.90",
+    "Player": "FALSTAFF",
+    "PlayerLine": "wicked. I must give over this life, and I will give"
+  },
+  {
+    "Dataline": 205,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 29,
+    "ActSceneLine": "1.2.91",
+    "Player": "FALSTAFF",
+    "PlayerLine": "it over: by the Lord, and I do not, I am a villain:"
+  },
+  {
+    "Dataline": 206,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 29,
+    "ActSceneLine": "1.2.92",
+    "Player": "FALSTAFF",
+    "PlayerLine": "I'll be damned for never a king's son in"
+  },
+  {
+    "Dataline": 207,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 29,
+    "ActSceneLine": "1.2.93",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Christendom."
+  },
+  {
+    "Dataline": 208,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 30,
+    "ActSceneLine": "1.2.94",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Where shall we take a purse tomorrow, Jack?"
+  },
+  {
+    "Dataline": 209,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 31,
+    "ActSceneLine": "1.2.95",
+    "Player": "FALSTAFF",
+    "PlayerLine": "'Zounds, where thou wilt, lad, I'll make one, an I"
+  },
+  {
+    "Dataline": 210,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 31,
+    "ActSceneLine": "1.2.96",
+    "Player": "FALSTAFF",
+    "PlayerLine": "do not, call me villain and baffle me."
+  },
+  {
+    "Dataline": 211,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 32,
+    "ActSceneLine": "1.2.97",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "I see a good amendment of life in thee, from praying"
+  },
+  {
+    "Dataline": 212,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 32,
+    "ActSceneLine": "1.2.98",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "to purse-taking."
+  },
+  {
+    "Dataline": 213,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 33,
+    "ActSceneLine": "1.2.99",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Why, Hal, 'tis my vocation, Hal, 'tis no sin for a"
+  },
+  {
+    "Dataline": 214,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 33,
+    "ActSceneLine": "1.2.100",
+    "Player": "FALSTAFF",
+    "PlayerLine": "man to labour in his vocation."
+  },
+  {
+    "Dataline": 215,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 33,
+    "ActSceneLine": "",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Enter POINS"
+  },
+  {
+    "Dataline": 216,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 33,
+    "ActSceneLine": "1.2.101",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Poins! Now shall we know if Gadshill have set a"
+  },
+  {
+    "Dataline": 217,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 33,
+    "ActSceneLine": "1.2.102",
+    "Player": "FALSTAFF",
+    "PlayerLine": "match. O, if men were to be saved by merit, what"
+  },
+  {
+    "Dataline": 218,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 33,
+    "ActSceneLine": "1.2.103",
+    "Player": "FALSTAFF",
+    "PlayerLine": "hole in hell were hot enough for him? This is the"
+  },
+  {
+    "Dataline": 219,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 33,
+    "ActSceneLine": "1.2.104",
+    "Player": "FALSTAFF",
+    "PlayerLine": "most omnipotent villain that ever cried 'Stand' to"
+  },
+  {
+    "Dataline": 220,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 33,
+    "ActSceneLine": "1.2.105",
+    "Player": "FALSTAFF",
+    "PlayerLine": "a true man."
+  },
+  {
+    "Dataline": 221,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 34,
+    "ActSceneLine": "1.2.106",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Good morrow, Ned."
+  },
+  {
+    "Dataline": 222,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 35,
+    "ActSceneLine": "1.2.107",
+    "Player": "POINS",
+    "PlayerLine": "Good morrow, sweet Hal. What says Monsieur Remorse?"
+  },
+  {
+    "Dataline": 223,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 35,
+    "ActSceneLine": "1.2.108",
+    "Player": "POINS",
+    "PlayerLine": "what says Sir John Sack and Sugar? Jack! how"
+  },
+  {
+    "Dataline": 224,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 35,
+    "ActSceneLine": "1.2.109",
+    "Player": "POINS",
+    "PlayerLine": "agrees the devil and thee about thy soul, that thou"
+  },
+  {
+    "Dataline": 225,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 35,
+    "ActSceneLine": "1.2.110",
+    "Player": "POINS",
+    "PlayerLine": "soldest him on Good-Friday last for a cup of Madeira"
+  },
+  {
+    "Dataline": 226,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 35,
+    "ActSceneLine": "1.2.111",
+    "Player": "POINS",
+    "PlayerLine": "and a cold capon's leg?"
+  },
+  {
+    "Dataline": 227,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 36,
+    "ActSceneLine": "1.2.112",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Sir John stands to his word, the devil shall have"
+  },
+  {
+    "Dataline": 228,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 36,
+    "ActSceneLine": "1.2.113",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "his bargain, for he was never yet a breaker of"
+  },
+  {
+    "Dataline": 229,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 36,
+    "ActSceneLine": "1.2.114",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "proverbs: he will give the devil his due."
+  },
+  {
+    "Dataline": 230,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 37,
+    "ActSceneLine": "1.2.115",
+    "Player": "POINS",
+    "PlayerLine": "Then art thou damned for keeping thy word with the devil."
+  },
+  {
+    "Dataline": 231,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 38,
+    "ActSceneLine": "1.2.116",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Else he had been damned for cozening the devil."
+  },
+  {
+    "Dataline": 232,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 39,
+    "ActSceneLine": "1.2.117",
+    "Player": "POINS",
+    "PlayerLine": "But, my lads, my lads, to-morrow morning, by four"
+  },
+  {
+    "Dataline": 233,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 39,
+    "ActSceneLine": "1.2.118",
+    "Player": "POINS",
+    "PlayerLine": "o'clock, early at Gadshill! there are pilgrims going"
+  },
+  {
+    "Dataline": 234,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 39,
+    "ActSceneLine": "1.2.119",
+    "Player": "POINS",
+    "PlayerLine": "to Canterbury with rich offerings, and traders"
+  },
+  {
+    "Dataline": 235,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 39,
+    "ActSceneLine": "1.2.120",
+    "Player": "POINS",
+    "PlayerLine": "riding to London with fat purses: I have vizards"
+  },
+  {
+    "Dataline": 236,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 39,
+    "ActSceneLine": "1.2.121",
+    "Player": "POINS",
+    "PlayerLine": "for you all, you have horses for yourselves:"
+  },
+  {
+    "Dataline": 237,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 39,
+    "ActSceneLine": "1.2.122",
+    "Player": "POINS",
+    "PlayerLine": "Gadshill lies to-night in Rochester: I have bespoke"
+  },
+  {
+    "Dataline": 238,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 39,
+    "ActSceneLine": "1.2.123",
+    "Player": "POINS",
+    "PlayerLine": "supper to-morrow night in Eastcheap: we may do it"
+  },
+  {
+    "Dataline": 239,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 39,
+    "ActSceneLine": "1.2.124",
+    "Player": "POINS",
+    "PlayerLine": "as secure as sleep. If you will go, I will stuff"
+  },
+  {
+    "Dataline": 240,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 39,
+    "ActSceneLine": "1.2.125",
+    "Player": "POINS",
+    "PlayerLine": "your purses full of crowns, if you will not, tarry"
+  },
+  {
+    "Dataline": 241,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 39,
+    "ActSceneLine": "1.2.126",
+    "Player": "POINS",
+    "PlayerLine": "at home and be hanged."
+  },
+  {
+    "Dataline": 242,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 40,
+    "ActSceneLine": "1.2.127",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Hear ye, Yedward, if I tarry at home and go not,"
+  },
+  {
+    "Dataline": 243,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 40,
+    "ActSceneLine": "1.2.128",
+    "Player": "FALSTAFF",
+    "PlayerLine": "I'll hang you for going."
+  },
+  {
+    "Dataline": 244,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 41,
+    "ActSceneLine": "1.2.129",
+    "Player": "POINS",
+    "PlayerLine": "You will, chops?"
+  },
+  {
+    "Dataline": 245,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 42,
+    "ActSceneLine": "1.2.130",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Hal, wilt thou make one?"
+  },
+  {
+    "Dataline": 246,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 43,
+    "ActSceneLine": "1.2.131",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Who, I rob? I a thief? not I, by my faith."
+  },
+  {
+    "Dataline": 247,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 44,
+    "ActSceneLine": "1.2.132",
+    "Player": "FALSTAFF",
+    "PlayerLine": "There's neither honesty, manhood, nor good"
+  },
+  {
+    "Dataline": 248,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 44,
+    "ActSceneLine": "1.2.133",
+    "Player": "FALSTAFF",
+    "PlayerLine": "fellowship in thee, nor thou camest not of the blood"
+  },
+  {
+    "Dataline": 249,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 44,
+    "ActSceneLine": "1.2.134",
+    "Player": "FALSTAFF",
+    "PlayerLine": "royal, if thou darest not stand for ten shillings."
+  },
+  {
+    "Dataline": 250,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 45,
+    "ActSceneLine": "1.2.135",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Well then, once in my days I'll be a madcap."
+  },
+  {
+    "Dataline": 251,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 46,
+    "ActSceneLine": "1.2.136",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Why, that's well said."
+  },
+  {
+    "Dataline": 252,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 47,
+    "ActSceneLine": "1.2.137",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Well, come what will, I'll tarry at home."
+  },
+  {
+    "Dataline": 253,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 48,
+    "ActSceneLine": "1.2.138",
+    "Player": "FALSTAFF",
+    "PlayerLine": "By the Lord, I'll be a traitor then, when thou art king."
+  },
+  {
+    "Dataline": 254,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 49,
+    "ActSceneLine": "1.2.139",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "I care not."
+  },
+  {
+    "Dataline": 255,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 50,
+    "ActSceneLine": "1.2.140",
+    "Player": "POINS",
+    "PlayerLine": "Sir John, I prithee, leave the prince and me alone:"
+  },
+  {
+    "Dataline": 256,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 50,
+    "ActSceneLine": "1.2.141",
+    "Player": "POINS",
+    "PlayerLine": "I will lay him down such reasons for this adventure"
+  },
+  {
+    "Dataline": 257,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 50,
+    "ActSceneLine": "1.2.142",
+    "Player": "POINS",
+    "PlayerLine": "that he shall go."
+  },
+  {
+    "Dataline": 258,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 51,
+    "ActSceneLine": "1.2.143",
+    "Player": "FALSTAFF",
+    "PlayerLine": "Well, God give thee the spirit of persuasion and him"
+  },
+  {
+    "Dataline": 259,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 51,
+    "ActSceneLine": "1.2.144",
+    "Player": "FALSTAFF",
+    "PlayerLine": "the ears of profiting, that what thou speakest may"
+  },
+  {
+    "Dataline": 260,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 51,
+    "ActSceneLine": "1.2.145",
+    "Player": "FALSTAFF",
+    "PlayerLine": "move and what he hears may be believed, that the"
+  },
+  {
+    "Dataline": 261,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 51,
+    "ActSceneLine": "1.2.146",
+    "Player": "FALSTAFF",
+    "PlayerLine": "true prince may, for recreation sake, prove a false"
+  },
+  {
+    "Dataline": 262,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 51,
+    "ActSceneLine": "1.2.147",
+    "Player": "FALSTAFF",
+    "PlayerLine": "thief, for the poor abuses of the time want"
+  },
+  {
+    "Dataline": 263,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 51,
+    "ActSceneLine": "1.2.148",
+    "Player": "FALSTAFF",
+    "PlayerLine": "countenance. Farewell: you shall find me in Eastcheap."
+  },
+  {
+    "Dataline": 264,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 52,
+    "ActSceneLine": "1.2.149",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Farewell, thou latter spring! farewell, All-hallown summer!"
+  },
+  {
+    "Dataline": 265,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 52,
+    "ActSceneLine": "",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Exit Falstaff"
+  },
+  {
+    "Dataline": 266,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 53,
+    "ActSceneLine": "1.2.150",
+    "Player": "POINS",
+    "PlayerLine": "Now, my good sweet honey lord, ride with us"
+  },
+  {
+    "Dataline": 267,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 53,
+    "ActSceneLine": "1.2.151",
+    "Player": "POINS",
+    "PlayerLine": "to-morrow: I have a jest to execute that I cannot"
+  },
+  {
+    "Dataline": 268,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 53,
+    "ActSceneLine": "1.2.152",
+    "Player": "POINS",
+    "PlayerLine": "manage alone. Falstaff, Bardolph, Peto and Gadshill"
+  },
+  {
+    "Dataline": 269,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 53,
+    "ActSceneLine": "1.2.153",
+    "Player": "POINS",
+    "PlayerLine": "shall rob those men that we have already waylaid:"
+  },
+  {
+    "Dataline": 270,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 53,
+    "ActSceneLine": "1.2.154",
+    "Player": "POINS",
+    "PlayerLine": "yourself and I will not be there, and when they"
+  },
+  {
+    "Dataline": 271,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 53,
+    "ActSceneLine": "1.2.155",
+    "Player": "POINS",
+    "PlayerLine": "have the booty, if you and I do not rob them, cut"
+  },
+  {
+    "Dataline": 272,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 53,
+    "ActSceneLine": "1.2.156",
+    "Player": "POINS",
+    "PlayerLine": "this head off from my shoulders."
+  },
+  {
+    "Dataline": 273,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 54,
+    "ActSceneLine": "1.2.157",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "How shall we part with them in setting forth?"
+  },
+  {
+    "Dataline": 274,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 55,
+    "ActSceneLine": "1.2.158",
+    "Player": "POINS",
+    "PlayerLine": "Why, we will set forth before or after them, and"
+  },
+  {
+    "Dataline": 275,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 55,
+    "ActSceneLine": "1.2.159",
+    "Player": "POINS",
+    "PlayerLine": "appoint them a place of meeting, wherein it is at"
+  },
+  {
+    "Dataline": 276,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 55,
+    "ActSceneLine": "1.2.160",
+    "Player": "POINS",
+    "PlayerLine": "our pleasure to fail, and then will they adventure"
+  },
+  {
+    "Dataline": 277,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 55,
+    "ActSceneLine": "1.2.161",
+    "Player": "POINS",
+    "PlayerLine": "upon the exploit themselves, which they shall have"
+  },
+  {
+    "Dataline": 278,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 55,
+    "ActSceneLine": "1.2.162",
+    "Player": "POINS",
+    "PlayerLine": "no sooner achieved, but we'll set upon them."
+  },
+  {
+    "Dataline": 279,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 56,
+    "ActSceneLine": "1.2.163",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Yea, but 'tis like that they will know us by our"
+  },
+  {
+    "Dataline": 280,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 56,
+    "ActSceneLine": "1.2.164",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "horses, by our habits and by every other"
+  },
+  {
+    "Dataline": 281,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 56,
+    "ActSceneLine": "1.2.165",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "appointment, to be ourselves."
+  },
+  {
+    "Dataline": 282,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 57,
+    "ActSceneLine": "1.2.166",
+    "Player": "POINS",
+    "PlayerLine": "Tut! our horses they shall not see: I'll tie them"
+  },
+  {
+    "Dataline": 283,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 57,
+    "ActSceneLine": "1.2.167",
+    "Player": "POINS",
+    "PlayerLine": "in the wood, our vizards we will change after we"
+  },
+  {
+    "Dataline": 284,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 57,
+    "ActSceneLine": "1.2.168",
+    "Player": "POINS",
+    "PlayerLine": "leave them: and, sirrah, I have cases of buckram"
+  },
+  {
+    "Dataline": 285,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 57,
+    "ActSceneLine": "1.2.169",
+    "Player": "POINS",
+    "PlayerLine": "for the nonce, to immask our noted outward garments."
+  },
+  {
+    "Dataline": 286,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 58,
+    "ActSceneLine": "1.2.170",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Yea, but I doubt they will be too hard for us."
+  },
+  {
+    "Dataline": 287,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 59,
+    "ActSceneLine": "1.2.171",
+    "Player": "POINS",
+    "PlayerLine": "Well, for two of them, I know them to be as"
+  },
+  {
+    "Dataline": 288,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 59,
+    "ActSceneLine": "1.2.172",
+    "Player": "POINS",
+    "PlayerLine": "true-bred cowards as ever turned back, and for the"
+  },
+  {
+    "Dataline": 289,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 59,
+    "ActSceneLine": "1.2.173",
+    "Player": "POINS",
+    "PlayerLine": "third, if he fight longer than he sees reason, I'll"
+  },
+  {
+    "Dataline": 290,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 59,
+    "ActSceneLine": "1.2.174",
+    "Player": "POINS",
+    "PlayerLine": "forswear arms. The virtue of this jest will be, the"
+  },
+  {
+    "Dataline": 291,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 59,
+    "ActSceneLine": "1.2.175",
+    "Player": "POINS",
+    "PlayerLine": "incomprehensible lies that this same fat rogue will"
+  },
+  {
+    "Dataline": 292,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 59,
+    "ActSceneLine": "1.2.176",
+    "Player": "POINS",
+    "PlayerLine": "tell us when we meet at supper: how thirty, at"
+  },
+  {
+    "Dataline": 293,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 59,
+    "ActSceneLine": "1.2.177",
+    "Player": "POINS",
+    "PlayerLine": "least, he fought with, what wards, what blows, what"
+  },
+  {
+    "Dataline": 294,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 59,
+    "ActSceneLine": "1.2.178",
+    "Player": "POINS",
+    "PlayerLine": "extremities he endured, and in the reproof of this"
+  },
+  {
+    "Dataline": 295,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 59,
+    "ActSceneLine": "1.2.179",
+    "Player": "POINS",
+    "PlayerLine": "lies the jest."
+  },
+  {
+    "Dataline": 296,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 60,
+    "ActSceneLine": "1.2.180",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "Well, I'll go with thee: provide us all things"
+  },
+  {
+    "Dataline": 297,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 60,
+    "ActSceneLine": "1.2.181",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "necessary and meet me to-morrow night in Eastcheap,"
+  },
+  {
+    "Dataline": 298,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 60,
+    "ActSceneLine": "1.2.182",
+    "Player": "PRINCE HENRY",
+    "PlayerLine": "there I'll sup. Farewell."
+  },
+  {
+    "Dataline": 299,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 61,
+    "ActSceneLine": "1.2.183",
+    "Player": "POINS",
+    "PlayerLine": "Farewell, my lord."
+  },
+  {
+    "Dataline": 300,
+    "Play": "Henry IV",
+    "PlayerLinenumber": 61,
+    "ActSceneLine": "",
+    "Player": "POINS",
+    "PlayerLine": "Exit Poins"
+  }
+]

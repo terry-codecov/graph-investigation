@@ -1,0 +1,8 @@
+.graph {
+  position: relative;
+}
+.gui {
+  position: absolute;
+  padding: 6px;
+  background-color: aqua;
+}

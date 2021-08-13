@@ -1,5 +1,32 @@
 .App {
-  text-align: center;
+}
+
+nav {
+  background-color: bisque;
+  padding: 10px 60px;
+}
+
+.explainer {
+  margin: 60px;
+  max-width: 400px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row > h3 {
+  margin: 10px 60px;
 }
 
 .App-logo {
@@ -14,7 +41,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

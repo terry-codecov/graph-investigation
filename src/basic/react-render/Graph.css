@@ -1,0 +1,15 @@
+.graph {
+  position: relative;
+  height: 100vh;
+  width: 50vw;
+  background-color: azure;
+}
+.gui {
+  position: absolute;
+  padding: 6px;
+  background-color: aqua;
+}
+svg {
+  width: 100%;
+  height: 100%;
+}
