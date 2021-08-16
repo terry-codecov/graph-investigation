@@ -15,7 +15,6 @@ import Nvio from "./libs/nvio";
 import Recharts from "./libs/rechart";
 
 function App() {
-  console.log(trimmed);
   return (
     <>
       <div className="row"></div>
