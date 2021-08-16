@@ -7,6 +7,7 @@
 }
 .gui {
   position: absolute;
+  right: 0;
   padding: 6px;
   background-color: aqua;
 }
@@ -19,6 +20,10 @@ svg {
   transform: translate(var(--margin), calc(-1 * var(--margin)));
 }
 
+.scatter circle {
+  cursor: pointer;
+}
+
 .xaxis {
   transform: translate(var(--margin), calc(100% - (var(--margin) / 2)));
   border-top: 2px solid black;
@@ -26,14 +31,27 @@ svg {
   font-weight: bold;
 }
 
+.xaxis .label {
+  transform: translate(50%, calc(var(--margin) / 2));
+}
+
 .yaxis {
-  transform: translate(var(--margin), calc(-1 * var(--margin)));
+  transform: translate(0, calc(-1 * var(--margin)));
   border-right: 2px solid black;
   font-size: 12px;
   font-weight: bold;
 }
 
 .yaxis .label {
+  transform: rotate(90deg) translate(50%, 0);
+}
+
+.yaxis .tick {
+  transform: translate(calc(var(--margin) / 2), var(--tick));
+}
+
+.xaxis .tick {
+  transform: translate(var(--tick), 0);
 }
 
 .tick > line {

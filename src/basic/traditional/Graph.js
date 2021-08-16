@@ -12,18 +12,14 @@ export default function ReactComponent({ shakespear }) {
   const [height, setHeight] = useState(window.innerHeight);
   const [active, setActive] = useState({});
   const refElement = useRef(null);
-
-  useEffect(fetchData, []);
+  
+  useEffect(fetchData, [shakespear]);
   useEffect(handleResizeEvent, []);
-  useEffect(initD3, [data]); // width, height  causing multiple svgs rendered
+  useEffect(initD3, [data]);
   useEffect(updateD3OnResize, [width, height]);
-
-  const lines = filter(shakespear, (entry) => entry.Player !== "").slice(
-    0,
-    400
-  );
-
+  
   function fetchData() {
+    const lines = filter(shakespear, (entry) => entry.Player !== "")
     Promise.resolve().then(() => setData(lines));
   }
 
@@ -62,7 +58,6 @@ export default function ReactComponent({ shakespear }) {
   return (
     <div className="graph">
       <div className="gui">
-        <p>Render in D3</p>
         <p>Name: {active.Player}</p>
         Line: {active.PlayerLine}
       </div>

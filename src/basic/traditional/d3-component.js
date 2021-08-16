@@ -1,10 +1,12 @@
 import * as d3 from "d3";
-import { uniqBy } from "lodash";
+import { uniqBy, minBy, maxBy } from "lodash";
 
 class D3Component {
   containerEl;
   props;
   svg;
+  xScale;
+  yScale;
 
   constructor(containerEl, props) {
     this.containerEl = containerEl;
@@ -17,6 +19,12 @@ class D3Component {
       .attr("width", width)
       .attr("height", height)
       .attr("viewBox", [0, 0, width, height]);
+
+      const xDomain = [minBy(props.data, d => d.Dataline).Dataline, maxBy(props.data, d => d.Dataline).Dataline]
+      const yDomain = [minBy(props.data, d => d.PlayerLine.length).PlayerLine.length, maxBy(props.data, d => d.PlayerLine.length).PlayerLine.length]
+      this.xScale = d3.scaleLinear().domain(xDomain).range([0, width]).clamp(true);
+      this.yScale = d3.scaleLinear().domain(yDomain).range([height, 0]).clamp(true);
+
     this.updateDatapoints();
   }
 
@@ -28,22 +36,19 @@ class D3Component {
     const players = uniqBy(data, (d) => d.Player);
     const margin = 40;
 
-    const xScale = d3.scaleLinear().domain([0, 350]).range([0, width]);
     const xAxis = (g) => {
       return g.call(
         d3
-          .axisBottom(xScale)
+          .axisBottom(this.xScale)
           .tickValues(
             d3.ticks(...d3.extent(data, (d) => d.Dataline), width / 120)
           )
       );
     };
-
-    const yScale = d3.scaleLinear().domain([0, 70]).range([height, 0]);
     const yAxis = (g) => {
       return g.call(
         d3
-          .axisLeft(yScale)
+          .axisLeft(this.yScale)
           .tickValues(
             d3.ticks(
               ...d3.extent(data, (d) => d.PlayerLine.length),
@@ -82,8 +87,9 @@ class D3Component {
       .enter()
       .append("g")
       .call(xAxis)
-      .append("circle")
       .call(yAxis)
+      .append("circle")
+      .style("cursor", "pointer")
       .style("fill", (d) => {
         const sequentialScale = d3
           .scaleSequential()
@@ -92,10 +98,10 @@ class D3Component {
         return sequentialScale(players.findIndex((i) => i.Player === d.Player));
       })
       .attr("cx", (d) => {
-        return xScale(d.Dataline);
+        return this.xScale(d.Dataline);
       })
       .attr("cy", (d) => {
-        return yScale(d.PlayerLine.length);
+        return this.yScale(d.PlayerLine.length);
       })
       .attr("r", 5)
       .on("click", (node, value) => {

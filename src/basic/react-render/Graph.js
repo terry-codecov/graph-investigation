@@ -1,99 +1,79 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { scaleLinear, scaleSequential } from "d3-scale";
 import * as d3 from "d3";
-import { filter, uniqBy } from "lodash";
+import { filter, uniqBy, minBy, maxBy } from "lodash";
 
 import "./Graph.css";
 
-const width = 600;
-const height = 850;
+import XAxis from "./xaxis";
+import YAxis from "./yaxis";
 
-const xScale = scaleLinear().domain([0, 350]).range([0, width]);
-const yScale = scaleLinear().domain([0, 70]).range([height, 0]);
+const width = 700;
+const height = 800;
+
 
 export default function ReactComponent({ shakespear }) {
   const [data, setData] = useState([]);
   const [players, setPlayers] = useState([]);
-  const [guiData, setGUIData] = useState([]);
-  const [active, setActive] = useState("");
+  const [guiState, setGuiState] = useState([]);
+  const [active, setActive] = useState(null);
+  const [xDomain, setXDomain] = useState([0,1])
+  const [yDomain, setYDomain] = useState([0,1])
+  const xScale = useCallback(() => scaleLinear().domain(xDomain).range([0, width]).clamp(true), [xDomain])
+  const yScale = useCallback(() => scaleLinear().domain(yDomain).range([height, 0]).clamp(true), [yDomain])
 
-  const lines = filter(shakespear, (entry) => entry.Player !== "");
+  console.log(data)
   const sequentialScale = scaleSequential()
     .domain([0, Object.keys(players).length])
     .interpolator(d3.interpolateRainbow);
 
-  function activate(data, i) {
-    const newArr = guiData.map((_, ii) => (ii === i ? true : false));
-    setActive(data);
-    setGUIData(newArr);
+  function activate(i) {
+    const newArr = guiState.map((_, ii) => (ii === i ? true : false));
+    setActive(i);
+    setGuiState(newArr);
   }
 
+  // Mount
   useEffect(() => {
     Promise.resolve().then(() => {
+      const lines = filter(shakespear, (entry) => entry.Player !== "");
+      setXDomain([minBy(lines, d => d.Dataline).Dataline, maxBy(lines, d => d.Dataline).Dataline])
+      setYDomain([minBy(lines, d => d.PlayerLine.length).PlayerLine.length, maxBy(lines, d => d.PlayerLine.length).PlayerLine.length])
       setData(lines);
       setPlayers(uniqBy(lines, (d) => d.Player));
-      setGUIData(Array(lines.length).fill(false));
     });
-  }, []);
+  }, [shakespear]);
+
+  // UI state
+  useEffect(() => {
+    const newArr = Array(data.length).fill(false);
+    setGuiState(newArr.map((_, ii) => (ii === active ? true : false)));
+  }, [active, data]);
 
   return (
     <div className="graph">
       <div className="gui">
-        <p>Render in React</p>
-        <p>Name: {active.Player}</p>
-        Line: {active.PlayerLine}
+        <p>Name: {data[active]?.Player}</p>
+        Line: {data[active]?.PlayerLine}
       </div>
-      <svg viewBox={[0, 0, width, height]}>
-          <text transform={`translate(${width / 2}, ${height})`}>
-            line number
-          </text>
-        <g className="xaxis">
-          {xScale.ticks().map((tick) => (
-            <g
-              key={`x-${tick}`}
-              className="tick"
-              transform={`translate(${xScale(tick)}, 0)`}
-            >
-              <line y1="-15" y2="-20"></line>
-              <text x="-10" y="0">
-                {tick > 0 && tick}
-              </text>
-            </g>
-          ))}
-        </g>
-        <g className="yaxis">
-          <text transform={`translate(-40, ${height / 2}), rotate(90)`}>
-            line length
-          </text>
-          {yScale.ticks().map((tick) => (
-            <g
-              key={`y-${tick}`}
-              className="tick"
-              transform={`translate(-20, ${yScale(tick)})`}
-            >
-              <line x1="15" x2="20"></line>
-              <text x="-9" y="0.32em">
-                {tick > 0 && tick}
-              </text>
-            </g>
-          ))}
-        </g>
+      <svg viewBox={[0, 0, width, height]} preserveAspectRatio="xMidYMid meet">
+        <XAxis scale={xScale()} label="line number" />
+        <YAxis scale={yScale()} label="line length" />
         <g className="scatter">
           {data.map((d, i) => (
             <circle
               key={d.Dataline}
-              style={{ cursor: "pointer" }}
-              cx={xScale(d.Dataline)}
-              cy={yScale(d.PlayerLine.length)}
+              cx={xScale()(d.Dataline)}
+              cy={yScale()(d.PlayerLine.length)}
               r="5"
               fill={
-                !!guiData[i]
+                !!guiState[i]
                   ? "yellow"
                   : sequentialScale(
                       players.findIndex((i) => i.Player === d.Player)
                     )
               }
-              onClick={() => activate(d, i)}
+              onClick={() => activate(i)}
             />
           ))}
         </g>
