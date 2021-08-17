@@ -7,18 +7,12 @@ import data, { full } from "./data";
 // https://medium.com/@stopyransky/react-hooks-and-d3-39be1d900fb
 // https://www.redblobgames.com/making-of/line-drawing/#steps
 
-// import ChartCSSColumn from "./chartcss/chartcss-column";
-// import ChartCSSBar from "./chartcss/chartcss-bar";
-
 const ChartCSSColumn = lazy(() => import("./chartcss/chartcss-column"));
 const ChartCSSBar = lazy(() => import("./chartcss/chartcss-bar"));
 
-// import Ant from "./libs/ant";
-// import Nvio from "./libs/nvio";
-// import Recharts from "./libs/rechart";
-
 const NewGraph = lazy(() => import("./basic/react-render"));
-const OldGraph = lazy(() => import("./basic/traditional"));
+const OldGraph = lazy(() => import("./basic/traditional/Graph"));
+const OldGraph2 = lazy(() => import("./basic/traditional"));
 const Ant = lazy(() => import("./libs/ant"));
 const Nvio = lazy(() => import("./libs/nvio"));
 const Recharts = lazy(() => import("./libs/rechart"));
@@ -35,9 +29,10 @@ export default function App() {
             </p>
             <ul>
               <li>
-                <Link to="/d3-traditional">
-                  Traditional D3 API (Bare bones)
-                </Link>
+                <Link to="/d3-traditional">Traditional D3 API (original)</Link>
+              </li>
+              <li>
+                <Link to="/d3-traditional-v2">Traditional D3 API (v2)</Link>
               </li>
               <li>
                 <Link to="/d3-react-rendered">
@@ -66,7 +61,12 @@ export default function App() {
             <ul>
               <li>
                 <Link to="/d3-traditional-full">
-                  Traditional D3 API (Bare bones)
+                  Traditional D3 API (original)
+                </Link>
+              </li>
+              <li>
+                <Link to="/d3-traditional-v2-full">
+                  Traditional D3 API (v2)
                 </Link>
               </li>
               <li>
@@ -112,11 +112,8 @@ export default function App() {
                     The code required to combine the two became complex even
                     with such a simple visualization, I have maintnence concerns
                     because of this. It's be far the hardest to read and
-                    understand of all the demos with many caveats.
-                  </p>
-                  <p>
-                    More features are possible, I just didnt spend the time as I
-                    needed to move onto other methods.
+                    understand of all the demos with many caveats. Rerenders /
+                    cleanup is an ongoing issue.
                   </p>
                 </div>
                 <OldGraph shakespear={data} />
@@ -125,7 +122,7 @@ export default function App() {
             <Route path="/d3-traditional-full">
               <div className="row">
                 <div className="explainer">
-                  <h1>D3 rendered chart</h1>
+                  <h1>D3 rendered chart (large data)</h1>
                   <p>
                     This is the traditional charting library mounted with react.
                     Performant how ever I ran into life cycle / timing for
@@ -139,12 +136,51 @@ export default function App() {
                     because of this. It's be far the hardest to read and
                     understand of all the demos with many caveats.
                   </p>
-                  <p>
-                    More features are possible, I just didnt spend the time as I
-                    needed to move onto other methods.
-                  </p>
                 </div>
                 <OldGraph shakespear={full} />
+              </div>
+            </Route>
+            <Route path="/d3-traditional-v2">
+              <div className="row">
+                <div className="explainer">
+                  <h1>D3 rendered chart V2</h1>
+                  <p>
+                    This is the traditional charting library mounted with react.
+                    Performant how ever I ran into life cycle / timing for
+                    mounting and dismounting the instance. This was the first
+                    demo so it doesnt include axis's or tooltips but it can be
+                    added. Full access to D3's large community of plugins.
+                  </p>
+                  <p>
+                    The code required to combine the two became complex even
+                    with such a simple visualization, I have maintnence concerns
+                    because of this. It's be far the hardest to read and
+                    understand of all the demos with many caveats. Rerenders /
+                    cleanup is an ongoing issue.
+                  </p>
+                </div>
+                <OldGraph2 shakespear={data} />
+              </div>
+            </Route>
+            <Route path="/d3-traditional-v2-full">
+              <div className="row">
+                <div className="explainer">
+                  <h1>D3 rendered chart V2 (large data)</h1>
+                  <p>
+                    This is the traditional charting library mounted with react.
+                    Performant how ever I ran into life cycle / timing for
+                    mounting and dismounting the instance. This was the first
+                    demo so it doesnt include axis's or tooltips but it can be
+                    added. Full access to D3's large community of plugins.
+                  </p>
+                  <p>
+                    The code required to combine the two became complex even
+                    with such a simple visualization, I have maintnence concerns
+                    because of this. It's be far the hardest to read and
+                    understand of all the demos with many caveats.
+                  </p>
+                </div>
+                <OldGraph2 shakespear={full} />
               </div>
             </Route>
             <Route path="/d3-react-rendered">
@@ -172,7 +208,7 @@ export default function App() {
             <Route path="/d3-react-rendered-full">
               <div className="row">
                 <div className="explainer">
-                  <h1>D3 powered react rendered SVG</h1>
+                  <h1>D3 powered react rendered SVG (large data)</h1>
                   <p>
                     The implementation is far cleaner then a traditional d3 app
                     at the cost of not having easy access to community plugins
@@ -194,7 +230,7 @@ export default function App() {
             <Route path="/ant-design-scatterplot-full">
               <div className="row">
                 <div className="explainer">
-                  <h1>@ant-design/scatterplot</h1>
+                  <h1>@ant-design/scatterplot (large data)</h1>
                   <p>
                     Ant Design's graphing library (has many chart types). I
                     quickly brush up against it's limitations, both in the data
@@ -232,7 +268,7 @@ export default function App() {
             <Route path="/nvio-scatterplot-full">
               <div className="row">
                 <div className="explainer">
-                  <h1>Nvio scatterplot</h1>
+                  <h1>Nvio scatterplot (large data)</h1>
                   <p>
                     By far has the best documentation. It loads slowly initially
                     and there are many re renders on hover (which it shouldnt),
@@ -262,7 +298,7 @@ export default function App() {
             <Route path="/recharts-scatterplot-full">
               <div className="row">
                 <div className="explainer">
-                  <h1>Recharts scatterplot</h1>
+                  <h1>Recharts scatterplot (large data)</h1>
                   <p>
                     Easily set up, relatively good performance under stress,
                     however customization is very limited. Unable to configure
@@ -290,7 +326,7 @@ export default function App() {
             <Route path="/css-column-full">
               <div className="row">
                 <div className="explainer">
-                  <h1>Charts CSS - Column</h1>
+                  <h1>Charts CSS - Column (large data)</h1>
                   <p>
                     Highly performant, accessible, requires more manual configs
                     depending on the data provided (easily fixed but not
@@ -348,7 +384,7 @@ export default function App() {
             <Route path="/css-bar-full">
               <div className="row">
                 <div className="explainer">
-                  <h1>Charts CSS - Bar</h1>
+                  <h1>Charts CSS - Bar (large data)</h1>
                   <p>
                     Highly performant, accessible, requires more manual configs
                     depending on the data provided (easily fixed but not
