@@ -54,10 +54,10 @@ export default function App() {
                 <Link to="/css-column">Charts.css column</Link>
               </li>
               <li>
-                <Link to="/css-bar">Charts.css scatterplot</Link>
+                <Link to="/css-bar">Charts.css bar</Link>
               </li>
             </ul>
-            <p>(1250 data points) for stress testing.</p>
+            <p>(1249 data points) for stress testing.</p>
             <ul>
               <li>
                 <Link to="/d3-traditional-full">
@@ -91,7 +91,7 @@ export default function App() {
                 <Link to="/css-column-full">Charts.css column</Link>
               </li>
               <li>
-                <Link to="/css-bar-full">Charts.css scatterplot</Link>
+                <Link to="/css-bar-full">Charts.css bar</Link>
               </li>
             </ul>
           </nav>
