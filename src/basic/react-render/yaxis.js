@@ -9,7 +9,7 @@ const Tick = memo(({ tick, children, ...props }) => {
     <g ref={ref} className="tick" {...props}>
       {children}
     </g>
-  )
+  );
 });
 
 const Yaxis = ({ scale, label }) => {

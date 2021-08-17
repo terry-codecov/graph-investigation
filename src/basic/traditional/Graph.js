@@ -12,14 +12,14 @@ export default function ReactComponent({ shakespear }) {
   const [height, setHeight] = useState(window.innerHeight);
   const [active, setActive] = useState({});
   const refElement = useRef(null);
-  
+
   useEffect(fetchData, [shakespear]);
   useEffect(handleResizeEvent, []);
   useEffect(initD3, [data]);
   useEffect(updateD3OnResize, [width, height]);
-  
+
   function fetchData() {
-    const lines = filter(shakespear, (entry) => entry.Player !== "")
+    const lines = filter(shakespear, (entry) => entry.Player !== "");
     Promise.resolve().then(() => setData(lines));
   }
 

@@ -20,10 +20,24 @@ class D3Component {
       .attr("height", height)
       .attr("viewBox", [0, 0, width, height]);
 
-      const xDomain = [minBy(props.data, d => d.Dataline).Dataline, maxBy(props.data, d => d.Dataline).Dataline]
-      const yDomain = [minBy(props.data, d => d.PlayerLine.length).PlayerLine.length, maxBy(props.data, d => d.PlayerLine.length).PlayerLine.length]
-      this.xScale = d3.scaleLinear().domain(xDomain).range([0, width]).clamp(true);
-      this.yScale = d3.scaleLinear().domain(yDomain).range([height, 0]).clamp(true);
+    const xDomain = [
+      minBy(props.data, (d) => d.Dataline).Dataline,
+      maxBy(props.data, (d) => d.Dataline).Dataline,
+    ];
+    const yDomain = [
+      minBy(props.data, (d) => d.PlayerLine.length).PlayerLine.length,
+      maxBy(props.data, (d) => d.PlayerLine.length).PlayerLine.length,
+    ];
+    this.xScale = d3
+      .scaleLinear()
+      .domain(xDomain)
+      .range([0, width])
+      .clamp(true);
+    this.yScale = d3
+      .scaleLinear()
+      .domain(yDomain)
+      .range([height, 0])
+      .clamp(true);
 
     this.updateDatapoints();
   }

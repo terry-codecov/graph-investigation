@@ -11,18 +11,22 @@ import YAxis from "./yaxis";
 const width = 700;
 const height = 800;
 
-
 export default function ReactComponent({ shakespear }) {
   const [data, setData] = useState([]);
   const [players, setPlayers] = useState([]);
   const [guiState, setGuiState] = useState([]);
   const [active, setActive] = useState(null);
-  const [xDomain, setXDomain] = useState([0,1])
-  const [yDomain, setYDomain] = useState([0,1])
-  const xScale = useCallback(() => scaleLinear().domain(xDomain).range([0, width]).clamp(true), [xDomain])
-  const yScale = useCallback(() => scaleLinear().domain(yDomain).range([height, 0]).clamp(true), [yDomain])
+  const [xDomain, setXDomain] = useState([0, 1]);
+  const [yDomain, setYDomain] = useState([0, 1]);
+  const xScale = useCallback(
+    () => scaleLinear().domain(xDomain).range([0, width]).clamp(true),
+    [xDomain]
+  );
+  const yScale = useCallback(
+    () => scaleLinear().domain(yDomain).range([height, 0]).clamp(true),
+    [yDomain]
+  );
 
-  console.log(data)
   const sequentialScale = scaleSequential()
     .domain([0, Object.keys(players).length])
     .interpolator(d3.interpolateRainbow);
@@ -37,8 +41,14 @@ export default function ReactComponent({ shakespear }) {
   useEffect(() => {
     Promise.resolve().then(() => {
       const lines = filter(shakespear, (entry) => entry.Player !== "");
-      setXDomain([minBy(lines, d => d.Dataline).Dataline, maxBy(lines, d => d.Dataline).Dataline])
-      setYDomain([minBy(lines, d => d.PlayerLine.length).PlayerLine.length, maxBy(lines, d => d.PlayerLine.length).PlayerLine.length])
+      setXDomain([
+        minBy(lines, (d) => d.Dataline).Dataline,
+        maxBy(lines, (d) => d.Dataline).Dataline,
+      ]);
+      setYDomain([
+        minBy(lines, (d) => d.PlayerLine.length).PlayerLine.length,
+        maxBy(lines, (d) => d.PlayerLine.length).PlayerLine.length,
+      ]);
       setData(lines);
       setPlayers(uniqBy(lines, (d) => d.Player));
     });
