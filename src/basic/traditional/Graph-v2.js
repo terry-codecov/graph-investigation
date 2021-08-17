@@ -1,4 +1,11 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, {
+  useState,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useMemo,
+  useCallback,
+} from "react";
 import * as d3 from "d3";
 import { uniqBy, minBy, maxBy, filter } from "lodash";
 
@@ -9,73 +16,74 @@ const height = 500;
 
 export default function ReactComponent({ shakespear }) {
   const [data, setData] = useState([]);
-  // const [width, setWidth] = useState(window.innerWidth / 2);
-  // const [height, setHeight] = useState(window.innerHeight);
   const [active, setActive] = useState({});
   const refElement = useRef(null);
 
-  useEffect(fetchData, [shakespear]);
-  // useEffect(handleResizeEvent, []);
-  useEffect(renderD3, [data]);
-
-  function fetchData() {
+  useEffect(() => {
     const lines = filter(shakespear, (entry) => entry.Player !== "");
     Promise.resolve().then(() => setData(lines));
-  }
+  }, [shakespear]);
 
-  // function handleResizeEvent() {
-  //   let resizeTimer;
-  //   const handleResize = () => {
-  //     clearTimeout(resizeTimer);
-  //     resizeTimer = setTimeout(function () {
-  //       setWidth(window.innerWidth / 2);
-  //       setHeight(window.innerHeight);
-  //     }, 300);
-  //   };
-  //   window.addEventListener("resize", handleResize);
-
-  //   return () => {
-  //     window.removeEventListener("resize", handleResize);
-  //   };
-  // }
-
-  function renderD3() {
-    if (data.length > 0) {
-      const xDomain = [
-        minBy(data, (d) => d?.Dataline)?.Dataline,
-        maxBy(data, (d) => d?.Dataline)?.Dataline,
-      ];
-      const yDomain = [
-        minBy(data, (d) => d?.PlayerLine.length)?.PlayerLine.length,
-        maxBy(data, (d) => d?.PlayerLine.length)?.PlayerLine.length,
-      ];
-      const xScale = d3
+  const players = useMemo(() => uniqBy(data, (d) => d?.Player), [data]);
+  const xDomain = useMemo(
+    () => [
+      minBy(data, (d) => d?.Dataline)?.Dataline,
+      maxBy(data, (d) => d?.Dataline)?.Dataline,
+    ],
+    [data]
+  );
+  const yDomain = useMemo(
+    () => [
+      minBy(data, (d) => d?.PlayerLine.length)?.PlayerLine.length,
+      maxBy(data, (d) => d?.PlayerLine.length)?.PlayerLine.length,
+    ],
+    [data]
+  );
+  const xScale = useCallback(
+    () =>
+      d3
         .scaleLinear()
         .domain(xDomain)
-        .range([0, width])
-        .clamp(true);
-      const yScale = d3
+        .range([0, width - 40])
+        .clamp(true),
+    [xDomain]
+  );
+  const yScale = useCallback(
+    () =>
+      d3
         .scaleLinear()
         .domain(yDomain)
-        .range([height, 0])
-        .clamp(true);
+        .range([height - 40, 0])
+        .clamp(true),
+    [yDomain]
+  );
+  const sequentialScale = useCallback(
+    () =>
+      d3
+        .scaleSequential()
+        .domain([0, Object.keys(players).length])
+        .interpolator(d3.interpolateRainbow),
+    [players]
+  );
 
-      const players = uniqBy(data, (d) => d?.Player);
-      const margin = 40;
+  useLayoutEffect(renderD3, [data, players, sequentialScale, xScale, yScale]);
 
-      const xAxis = (g) => {
-        return g.call(
+  function renderD3() {
+    const { current } = refElement;
+
+    if (data?.length) {
+      const xAxis = (g) =>
+        g.call(
           d3
-            .axisBottom(xScale)
+            .axisBottom(xScale())
             .tickValues(
               d3.ticks(...d3.extent(data, (d) => d?.Dataline), width / 120)
             )
         );
-      };
-      const yAxis = (g) => {
-        return g.call(
+      const yAxis = (g) =>
+        g.call(
           d3
-            .axisLeft(yScale)
+            .axisLeft(yScale())
             .tickValues(
               d3.ticks(
                 ...d3.extent(data, (d) => d?.PlayerLine.length),
@@ -83,19 +91,16 @@ export default function ReactComponent({ shakespear }) {
               )
             )
         );
-      };
 
+      const margin = 40;
       const svg = d3.select(refElement.current);
 
-      const g = svg
+      svg.append("g").attr("transform", `translate(${margin}, 9)`).call(yAxis);
+      svg
         .append("g")
-        .attr("transform", `translate(${margin}, -${margin})`);
-      const gx = svg
-        .append("g")
-        .attr("transform", `translate(${margin}, ${height - 40})`);
-      const gy = svg
-        .append("g")
-        .attr("transform", `translate(${margin}, -${margin})`);
+        .attr("transform", `translate(${margin}, ${height - 40})`)
+        .call(xAxis);
+      svg.append("g").attr("transform", `translate(${margin}, -${margin})`);
 
       // y
       svg
@@ -108,38 +113,26 @@ export default function ReactComponent({ shakespear }) {
         .attr("transform", `translate(${width / 2}, ${height - 10})`)
         .text("line number");
 
-      gx.selectAll("g").data(data).enter().append("g").call(xAxis);
-      gy.selectAll("g").data(data).enter().append("g").call(yAxis);
-
-      g.selectAll("path")
+      svg
+        .append("g")
+        .attr("transform", `translate(${margin}, 0)`)
+        .selectAll("path")
         .data(data)
         .enter()
-        .append("g")
-        .call(xAxis)
-        .call(yAxis)
         .append("circle")
-        .style("cursor", "pointer")
-        .style("fill", (d) => {
-          const sequentialScale = d3
-            .scaleSequential()
-            .domain([0, Object.keys(players).length])
-            .interpolator(d3.interpolateRainbow);
-          return sequentialScale(
-            players.findIndex((i) => i?.Player === d?.Player)
-          );
-        })
-        .attr("cx", (d) => {
-          return xScale(d?.Dataline);
-        })
-        .attr("cy", (d) => {
-          return yScale(d?.PlayerLine.length);
-        })
+        .style("fill", (d) =>
+          sequentialScale()(players.findIndex((i) => i?.Player === d?.Player))
+        )
+        .attr("cx", (d) => xScale()(d?.Dataline))
+        .attr("cy", (d) => yScale()(d?.PlayerLine.length))
         .attr("r", 5)
         .on("click", (node, value) => {
           d3.select(node.target).style("fill", "yellow");
           setActive(value);
         });
     }
+
+    return () => d3.select(current).selectAll("*").remove();
   }
 
   return (

@@ -1,4 +1,4 @@
-import { memo, useRef, useEffect } from "react";
+import { memo, useRef, useMemo, useEffect } from "react";
 
 const Tick = memo(({ tick, children, ...props }) => {
   const ref = useRef();
@@ -13,14 +13,25 @@ const Tick = memo(({ tick, children, ...props }) => {
 });
 
 const Yaxis = ({ scale, label }) => {
+  const ticks = useMemo(() => {
+    return scale()
+      .ticks()
+      .map((value) => ({
+        value,
+        offset: scale()(value),
+      }));
+  }, [scale]);
+  const [min, max] = scale().range();
+
   return (
     <g className="yaxis">
       <text className="label">{label}</text>
-      {scale.ticks().map((tick) => (
-        <Tick key={`y-${tick}`} tick={scale(tick)}>
-          <line x1="15" x2="20"></line>
-          <text x="-9" y="0.32em">
-            {tick > 0 && tick}
+      <line x1="40" x2="40" y1={min} y2={max}></line>
+      {ticks.map(({ value, offset }) => (
+        <Tick key={`y-${value}`} tick={offset}>
+          <line x1="-5" x2="0"></line>
+          <text x="-30" y="0.32em">
+            {value > 0 && value}
           </text>
         </Tick>
       ))}

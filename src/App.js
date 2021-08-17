@@ -7,8 +7,11 @@ import data, { full } from "./data";
 // https://medium.com/@stopyransky/react-hooks-and-d3-39be1d900fb
 // https://www.redblobgames.com/making-of/line-drawing/#steps
 
-import ChartCSSColumn from "./chartcss/chartcss-column";
-import ChartCSSBar from "./chartcss/chartcss-bar";
+// import ChartCSSColumn from "./chartcss/chartcss-column";
+// import ChartCSSBar from "./chartcss/chartcss-bar";
+
+const ChartCSSColumn = lazy(() => import("./chartcss/chartcss-column"));
+const ChartCSSBar = lazy(() => import("./chartcss/chartcss-bar"));
 
 // import Ant from "./libs/ant";
 // import Nvio from "./libs/nvio";

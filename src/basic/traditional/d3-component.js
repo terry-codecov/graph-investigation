@@ -74,13 +74,13 @@ class D3Component {
 
     const g = svg
       .append("g")
-      .attr("transform", `translate(${margin}, -${margin})`);
-    const gx = svg
+      .attr("transform", `translate(${margin}, 9)`)
+      .call(yAxis);
+    svg
       .append("g")
-      .attr("transform", `translate(${margin}, ${height - 40})`);
-    const gy = svg
-      .append("g")
-      .attr("transform", `translate(${margin}, -${margin})`);
+      .attr("transform", `translate(${margin}, ${height - 40})`)
+      .call(xAxis);
+    svg.append("g").attr("transform", `translate(${margin}, -${margin})`);
 
     // y
     svg
@@ -93,15 +93,10 @@ class D3Component {
       .attr("transform", `translate(${width / 2}, ${height - 10})`)
       .text("line number");
 
-    gx.selectAll("g").data(data).enter().append("g").call(xAxis);
-    gy.selectAll("g").data(data).enter().append("g").call(yAxis);
-
     g.selectAll("path")
       .data(data)
       .enter()
       .append("g")
-      .call(xAxis)
-      .call(yAxis)
       .append("circle")
       .style("cursor", "pointer")
       .style("fill", (d) => {

@@ -27,9 +27,13 @@ export default function ReactComponent({ shakespear }) {
     [yDomain]
   );
 
-  const sequentialScale = scaleSequential()
-    .domain([0, Object.keys(players).length])
-    .interpolator(d3.interpolateRainbow);
+  const sequentialScale = useCallback(
+    () =>
+      scaleSequential()
+        .domain([0, Object.keys(players).length])
+        .interpolator(d3.interpolateRainbow),
+    [players]
+  );
 
   function activate(i) {
     const newArr = guiState.map((_, ii) => (ii === i ? true : false));
@@ -67,8 +71,8 @@ export default function ReactComponent({ shakespear }) {
         Line: {data[active]?.PlayerLine}
       </div>
       <svg viewBox={[0, 0, width, height]} preserveAspectRatio="xMidYMid meet">
-        <XAxis scale={xScale()} label="line number" />
-        <YAxis scale={yScale()} label="line length" />
+        <XAxis scale={xScale} label="line number" />
+        <YAxis scale={yScale} label="line length" />
         <g className="scatter">
           {data.map((d, i) => (
             <circle
@@ -79,7 +83,7 @@ export default function ReactComponent({ shakespear }) {
               fill={
                 !!guiState[i]
                   ? "yellow"
-                  : sequentialScale(
+                  : sequentialScale()(
                       players.findIndex((i) => i.Player === d.Player)
                     )
               }

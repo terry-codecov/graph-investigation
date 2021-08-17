@@ -1,5 +1,9 @@
 .graph {
   position: relative;
+  width: 100%;
+}
+.graph circle {
+  cursor: pointer;
 }
 .gui {
   position: absolute;
