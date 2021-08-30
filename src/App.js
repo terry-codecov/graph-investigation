@@ -16,6 +16,7 @@ const OldGraph2 = lazy(() => import("./basic/traditional"));
 const Ant = lazy(() => import("./libs/ant"));
 const Nvio = lazy(() => import("./libs/nvio"));
 const Recharts = lazy(() => import("./libs/rechart"));
+const Victory = lazy(() => import("./libs/victory"));
 
 export default function App() {
   return (
@@ -56,6 +57,9 @@ export default function App() {
               <li>
                 <Link to="/css-bar">Charts.css bar</Link>
               </li>
+              <li>
+                <Link to="/victory-scatterplot">Victory scatterplot</Link>
+              </li>
             </ul>
             <p>(1249 data points) for stress testing.</p>
             <ul>
@@ -92,6 +96,11 @@ export default function App() {
               </li>
               <li>
                 <Link to="/css-bar-full">Charts.css bar</Link>
+              </li>
+              <li>
+                <Link to="/victory-scatterplot-full">
+                  Victory scatterplot full
+                </Link>
               </li>
             </ul>
           </nav>
@@ -437,6 +446,24 @@ export default function App() {
                   </p>
                 </div>
                 <ChartCSSBar shakespear={data} />
+              </div>
+            </Route>
+            <Route path="/victory-scatterplot-full">
+              <div className="row">
+                <div className="explainer">
+                  <h1>Victory scatterplot (large data)</h1>
+                  <p></p>
+                </div>
+                <Victory shakespear={full} />
+              </div>
+            </Route>
+            <Route path="/victory-scatterplot">
+              <div className="row">
+                <div className="explainer">
+                  <h1>Victory scatterplot</h1>
+                  <p></p>
+                </div>
+                <Victory shakespear={data} />
               </div>
             </Route>
             <Route path="/"></Route>

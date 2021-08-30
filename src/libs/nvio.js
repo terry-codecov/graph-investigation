@@ -3,7 +3,7 @@ import { filter, uniqBy } from "lodash";
 
 // Many re renderes, performance concerns. Not sure how to customize hover content. Looks customizable
 // Using depricated react internal calls :(
-const MyResponsiveScatterPlot = ({ shakespear }) => {
+const Nvio = ({ shakespear }) => {
   const formatted = shakespear.reduce((prev, curr) => {
     return [...prev, { x: curr.Dataline, y: curr.PlayerLine.length, ...curr }];
   }, []);
@@ -75,4 +75,4 @@ const MyResponsiveScatterPlot = ({ shakespear }) => {
   );
 };
 
-export default MyResponsiveScatterPlot;
+export default Nvio;
